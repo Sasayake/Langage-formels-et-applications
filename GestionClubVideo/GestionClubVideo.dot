@@ -1,0 +1,18 @@
+digraph {
+BOUTIQUE [ label=" BOUTIQUE " shape= box ]
+CASSETTE [ label=" CASSETTE " shape= box ]
+CLIENT [ label=" CLIENT " shape= box ]
+CONTEXTE [ label=" CONTEXTE " shape= box ]
+EMPRUNT [ label=" EMPRUNT " shape= box ]
+EPISODE [ label=" EPISODE " shape= box ]
+FILM [ label=" FILM " shape= box ]
+Reservation [ label=" Reservation " shape= box ]
+
+"BOUTIQUE" -> "CONTEXTE" [style= dotted ]
+"CASSETTE" -> "CONTEXTE" [style= dotted ]
+"CLIENT" -> "CONTEXTE" [style= dotted ]
+"EMPRUNT" -> "CONTEXTE" [style= dotted ]
+"EPISODE" -> "CONTEXTE" [style= dotted ]
+"FILM" -> "CONTEXTE" [style= dotted ]
+"Reservation" -> "CONTEXTE" [style= dotted ]
+}
