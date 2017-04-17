@@ -14,16 +14,17 @@ USES
 
 VARIABLES
     Emprunt,
+    k7,
     Date_E
 
 INVARIANT
-    Emprunt:K7+->CLIENTS&
+    Emprunt:K7+->Client&
     Date_E:K7+->NAT&
-    card(dom(Emprunt))<=Nb_Max(Emprunt)
-   
-
+    card(dom(Emprunt))<=Nb_Max(Emprunt(k7))
+    
 INITIALISATION
     Emprunt:={}||
-    Date_E:={}
+    Date_E:={}||
+    k7:K7
 
 END

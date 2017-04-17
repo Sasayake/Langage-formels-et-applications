@@ -1,9 +1,9 @@
-/* Reservation
+/* RESERVATION
  * Author: Sondra
- * Creation date: 06/04/2017
+ * Creation date: 13/04/2017
  */
 MACHINE
-    Reservation
+    RESERVATION
 
 SEES
     CONTEXTE
@@ -13,12 +13,19 @@ USES
     CASSETTE
     
 VARIABLES
-    Emprunts,
-    Date_E
+    Reservation,
+    k7,
+    Date_Res
 
 INVARIANT
-    Emprunts:K7+->Client&
-    Date_E:K7+->NAT&
-    card(dom(Emprunts))<=Nb_Max(Client)
+    Reservation:K7+->Client&
+    Date_Res:K7+->NAT&
+    card(dom(Reservation))<=Nb_Max(Reservation(k7))
+    
+INITIALISATION
+    Reservation:={}||
+    Date_Res:={}||
+    k7:K7
+    
 
 END

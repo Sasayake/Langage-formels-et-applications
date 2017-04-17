@@ -4,6 +4,9 @@
     <project decomp_dir="C:\Users\Sondra\Documents\TSP\Langage formels et applications\GestionClubVideo\expand_src" old_decomp_dir="C:\Users\Sondra\Documents\TSP\Langage formels et applications\GestionClubVideo\src">
         <!-- Definition directory list -->
         <!-- Component file list -->
+        <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="APPARTIENT" suffix="mch" user="Sondra">
+            <component name="APPARTIENT" type="specification" />
+        </component_file>
         <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="BOUTIQUE" suffix="mch" user="Sondra">
             <component name="BOUTIQUE" type="specification" />
         </component_file>
@@ -16,6 +19,12 @@
         <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="CONTEXTE" suffix="mch" user="Sondra">
             <component name="CONTEXTE" type="specification" />
         </component_file>
+        <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="CONTIENT1" suffix="mch" user="Sondra">
+            <component name="CONTIENT1" type="specification" />
+        </component_file>
+        <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="CONTIENT2" suffix="mch" user="Sondra">
+            <component name="CONTIENT2" type="specification" />
+        </component_file>
         <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="EMPRUNT" suffix="mch" user="Sondra">
             <component name="EMPRUNT" type="specification" />
         </component_file>
@@ -25,8 +34,11 @@
         <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="FILM" suffix="mch" user="Sondra">
             <component name="FILM" type="specification" />
         </component_file>
-        <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="Reservation" suffix="mch" user="Sondra">
-            <component name="Reservation" type="specification" />
+        <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="POSSEDE" suffix="mch" user="Sondra">
+            <component name="POSSEDE" type="specification" />
+        </component_file>
+        <component_file path="C:/Users/Sondra/Documents/TSP/Langage formels et applications" name="RESERVATION" suffix="mch" user="Sondra">
+            <component name="RESERVATION" type="specification" />
         </component_file>
     </project>
 </db_xml>
